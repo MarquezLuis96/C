@@ -1,0 +1,2 @@
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\05 - Structured Data\pointer to struct\Debug\pointer to struct.exe
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\05 - Structured Data\pointer to struct\Debug\pointer to struct.pdb
