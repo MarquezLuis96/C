@@ -1,0 +1,2 @@
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\04 - Command Line Interface (CLI)\Command Line Interface (CLI)\Debug\Command Line Interface (CLI).exe
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\04 - Command Line Interface (CLI)\Command Line Interface (CLI)\Debug\Command Line Interface (CLI).pdb
