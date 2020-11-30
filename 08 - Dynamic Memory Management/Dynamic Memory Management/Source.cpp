@@ -71,6 +71,7 @@ void run(int argc, const char* argv[]) {
 	for (int i = 0; i < listSize; i++) {
 		printf("%s\t\t%s\n", list[i].name, list[i].email);
 	}
+	free(list);
 }
 
 
