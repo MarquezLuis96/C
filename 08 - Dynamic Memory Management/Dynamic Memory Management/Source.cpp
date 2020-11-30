@@ -2,7 +2,7 @@
 *	Date: 2020/11/29
 *	Author: Luis Marquez
 *	Description:
-*			//
+*			This is  a program to learn how to use the dynamic memory.
 */
 
 
@@ -54,6 +54,8 @@ void run(int argc, const char* argv[]) {
 			//scanf_s("%s", buffer);
 			cin.getline(buffer, (MAX-1));
 			strcpy_s(list[listSize].email, buffer);
+
+
 			goOn = 1;
 			listSize++;
 		}
