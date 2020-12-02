@@ -32,6 +32,36 @@ NODE* createNode(int number) {
 }
 
 
+//deleteNode(): This is a function in whic we delete a node given a key
+bool deleteNode(int key, NODE **start) {
+	//caso -> El nodo a eliminar es el primer
+	//caso -> el nodo a eliminar no es el primero
+	//caso -> el nodo a eliminar no existe dentro de la lista
+
+	NODE* current = *start;
+	NODE* previous = NULL;
+
+	while (current->next) {
+		if (current == *start && current->number == key) {
+			*start = current->next;
+			current = current->next;
+			return true;
+		}
+
+		if (key == current->number) {
+			previous->next = current->next;
+			free(current);
+			return true;
+		}
+		else {
+			previous = current;
+			current = current->next;
+		}
+	}
+	return false;
+}
+
+
 //run(): On this function we'll run all the other functions written on this program
 void run() {
 	NODE* start = NULL;
@@ -74,18 +104,34 @@ void run() {
 			printf(current->next ? ", ": "\n");
 			current = current->next;
 		}
+	} while (goOn);
 
+
+	printf("Type the number you want to delete: ");
+	scanf_s("%d", &number);
+
+	if (deleteNode(number, &start)) {
+		printf("\n %d successfully deleted...\n The new list is:\n\n", number);
 
 		current = start;
 		while (current) {
-			next = current->next;
-			free(current);
-			current = next;
+			printf("%d", current->number);
+			printf(current->next ? ", " : "\n");
+			current = current->next;
 		}
 
+	}
+	else {
+		printf("\nNumber wasn't found...\n");
+	}
 
-	} while (goOn);
 
+	current = start;
+	while (current) {
+		next = current->next;
+		free(current);
+		current = next;
+	}
 }
 
 
