@@ -36,6 +36,7 @@ NODE* createNode(int number) {
 void run() {
 	NODE* start = NULL;
 	NODE* current;
+	NODE* next;
 	char goOn;
 	int listSize = 0;
 	int number;
@@ -72,6 +73,14 @@ void run() {
 			printf("%d", current->number);
 			printf(current->next ? ", ": "\n");
 			current = current->next;
+		}
+
+
+		current = start;
+		while (current) {
+			next = current->next;
+			free(current);
+			current = next;
 		}
 
 
