@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Source.cpp(56,12): warning C4473: "scanf_s": no se pasaron suficientes argumentos para la cadena de formato
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Source.cpp(56,12): message : los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Source.cpp(56,12): message : el argumento variádico 2 que falta es requerido por la cadena de formato '%c'
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Source.cpp(56,12): message : este argumento se utiliza como un tamaño de búfer
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Source.cpp(76,8): warning C4101: 'opt': variable local sin referencia
+C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Source.cpp(74,8): warning C4101: 'buffer': variable local sin referencia
+  bin_files.vcxproj -> C:\Users\lamc\Documents\00 - Escritorio\03 -  Courses\C\10 - Files\bin_files\Debug\bin_files.exe
