@@ -34,9 +34,9 @@ NODE* createNode(int number) {
 
 //deleteNode(): This is a function in whic we delete a node given a key
 bool deleteNode(int key, NODE **start) {
-	//caso -> El nodo a eliminar es el primer
-	//caso -> el nodo a eliminar no es el primero
-	//caso -> el nodo a eliminar no existe dentro de la lista
+	//case 1 -> First
+	//case 2 -> Other/Last
+	//case 3 -> Not found
 
 	NODE* current = *start;
 	NODE* previous = NULL;
