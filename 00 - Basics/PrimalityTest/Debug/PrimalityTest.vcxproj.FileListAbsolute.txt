@@ -1,0 +1,2 @@
+C:\Users\lamc\source\repos\PrimalityTest\Debug\PrimalityTest.exe
+C:\Users\lamc\source\repos\PrimalityTest\Debug\PrimalityTest.pdb
